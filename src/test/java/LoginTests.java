@@ -9,8 +9,6 @@ public class LoginTests {
     @Test
     void successfulLoginTest() {
         Configuration.holdBrowserOpen = true;
-        Configuration.browser = "Chrome";
-        Configuration.browserSize = "1920x1080";
 
 
 
