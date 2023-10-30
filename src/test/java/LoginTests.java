@@ -9,7 +9,7 @@ public class LoginTests {
     @Test
     void successfulLoginTest() {
         Configuration.holdBrowserOpen = true;
-
+        Configuration.pageLoadStrategy = "eager";
 
 
         open("https://qa.guru/cms/system/login");
